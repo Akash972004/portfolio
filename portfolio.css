@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 99vw;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border-color: black;
+  transition: all 0.5s ease-in-out;
+}
+a:hover {
+  border-color: white;
+  border-bottom: 1px solid;
+}
+.info {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 50vmax;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+.intro {
+  background-image: url(backgrond.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 99vw;
+}
+.intro2 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 300px;
+  left: 5px;
+  font-size: 2.5vmax;
+}
+.intro2 {
+  animation: 2s 1 forwards slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: -1000px;
+  }
+  to {
+    margin-left: 5%;
+  }
+}
+
+.akash {
+  color: white;
+  height: 90vh;
+  width: 99vw;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Times New Roman", Times, serif;
+}
+.hd {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  left: 10px;
+  border-bottom: 1px solid;
+  border-color: white;
+  background-color: black;
+}
+.about img {
+  margin-top: 100px;
+  border: 2px solid white;
+  transition: all 1s ease;
+  border-radius: 50%;
+}
+.ab-exp {
+  margin-top: 50px;
+
+  text-align: start;
+
+  font-size: 1.5vmax;
+}
+.about img:hover {
+  transform: scale(1.2);
+}
+
+.education-container {
+  height: 90vh;
+  background-color: black;
+  width: 99vw;
+  color: white;
+}
+.Education {
+  display: flex;
+  width: 800px;
+  margin: 30px;
+  gap: 2px;
+}
+.Education img {
+  width: 15%;
+  height: 250px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: all ease 0.5s;
+}
+.Education img:hover {
+  width: 100%;
+  scale: 1.1;
+}
+.edu {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 2rem;
+  border-bottom: 1px solid;
+  border-color: white;
+}
+.edu-info {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vmax;
+  text-align: start;
+  margin-left: 20px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.skills {
+  height: 94vh;
+  background-color: black;
+  width: 99vw;
+  color: white;
+}
+.skills h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  margin-left: 20px;
+  border-bottom: 2px solid white;
+}
+.skills ol {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  margin: 40px;
+}
+.skills table {
+  margin: 20px;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+th,
+td {
+  padding: 15px;
+}
+th p {
+  font-size: 1.3rem;
+  color: yellow;
+}
+td p {
+  font-size: 1rem;
+}
+.skills p {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+td a {
+  font-size: 1rem;
+  color: blue;
+  text-decoration: underline;
+}
+.certification {
+  height: 94vh;
+  background-color: black;
+  width: 99vw;
+  color: white;
+}
+.certification h1 {
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  border-bottom: 2px solid;
+}
+.certification img {
+  margin: 20px;
+}
+footer {
+  height: 50vh;
+  background-color: black;
+  width: 99vw;
+  color: white;
+}
+footer h3 {
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  border-bottom: 2px solid;
+}
+.contact i {
+  margin: 30px;
+  font-size: 1rem;
+}
