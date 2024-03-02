@@ -157,12 +157,12 @@ a:hover {
 }
 .skills table {
   margin: 20px;
-  padding: 20px;
+  padding: 15px;
   font-family: "Times New Roman", Times, serif;
 }
 th,
 td {
-  padding: 5px;
+  padding: 4px;
 }
 th p {
   font-size: 1.3rem;
